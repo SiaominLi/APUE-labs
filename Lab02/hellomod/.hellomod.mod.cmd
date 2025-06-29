@@ -1,0 +1,1 @@
+savedcmd_/home/sense/Desktop/Lab02/hellomod/hellomod.mod := printf '%s\n'   hellomod.o | awk '!x[$$0]++ { print("/home/sense/Desktop/Lab02/hellomod/"$$0) }' > /home/sense/Desktop/Lab02/hellomod/hellomod.mod
