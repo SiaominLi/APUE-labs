@@ -1,0 +1,33 @@
+[GDB]
+ZDEBUG=1 gdb --args env LD_PRELOAD=./libzpoline.so.2 /usr/bin/echo 'uphw{7h15_15_4_51mpl3_fl46_fr0m_200l4b}'
+
+-----------------------------
+
+[Testcase]
+input:
+LD_PRELOAD=./libzpoline.so.2 /usr/bin/echo '7h15 15 4 l337 73x7'
+output:
+this is a leet text
+
+---
+
+input:
+LD_PRELOAD=./libzpoline.so.2 /usr/bin/echo 'uphw{7h15_15_4_51mpl3_fl46_fr0m_200l4b}'
+output:
+uphw{this_is_a_simple_flag_from_zoolab}
+
+---
+
+input: 
+LD_PRELOAD=./libzpoline.so.2 cat ex2-2.txt
+
+output:
+**this article has been encoded in leet.**
+
+if you can read this, you probably have seen this form of writing before. in case you haven't, this is a common way of disguising text by replacing letters with numbers.
+
+However, the idea behind this article is to see if it can be **unleeted** back to a readable form. if the reverse process does not reveal a compietely coherent english sentence, there may be an error in the leet conversion.
+
+if you've decoded this article and it is completely readable, then the leet translation is correct. otherwise, something went wrong.
+
+Good luck unleeting this!

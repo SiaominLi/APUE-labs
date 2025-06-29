@@ -1,0 +1,1 @@
+savedcmd_/home/sense/Desktop/Lab02/hellomod/Module.symvers :=  scripts/mod/modpost -M        -o /home/sense/Desktop/Lab02/hellomod/Module.symvers -T /home/sense/Desktop/Lab02/hellomod/modules.order -i Module.symvers -e 
