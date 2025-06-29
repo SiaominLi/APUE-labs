@@ -1,0 +1,1 @@
+LD_PRELOAD=./libzpoline.so LIBZPHOOK=./libex3hook.so ./ex3
