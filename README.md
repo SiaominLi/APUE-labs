@@ -1,4 +1,3 @@
-# APUE-labs
 ---
 
 # 高等UNIX程式設計 Advanced Programming in the UNIX Environment 
